@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 const Colorizer = () => {
-  const [color, setColor] = useState('#6d0e0e');
+  const [color, setColor] = useState('#155799');
 
   const getRandomColor = () => {
     const random = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-    return random;
+    return random.toUpperCase();
   };
 
   const changeColor = () => {

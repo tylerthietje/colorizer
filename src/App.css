@@ -1,11 +1,14 @@
 body {
   text-align: center;
-  background-color: rgb(138, 136, 136);
+  background: #159957;
+  background: -webkit-linear-gradient(to right, #155799, #159957);
+  background: linear-gradient(to right, #155799, #159957);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .canvas {
@@ -14,6 +17,7 @@ body {
   border: 5px solid white;
   border-radius: 1rem;
   margin: 1rem;
+  letter-spacing: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,5 +31,4 @@ button {
   font-size: 2em;
   border-radius: 25px;
   background-color: #14e52f;
-
 }
