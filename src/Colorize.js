@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, React } from 'react';
 
 const Colorizer = () => {
   const [color, setColor] = useState('#6d0e0e');
@@ -6,7 +6,7 @@ const Colorizer = () => {
   const getRandomColor = () => {
     const random = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
     return random;
-  }
+  };
 
   const changeColor = () => {
     const randomColor = getRandomColor();
@@ -15,7 +15,7 @@ const Colorizer = () => {
   };
 
   return (
-    <div className='colorizer'>
+    <div className="colorizer">
       <h1>Colorizer</h1>
       <div className="canvas" style={{ backgroundColor: color }}>
         {color}

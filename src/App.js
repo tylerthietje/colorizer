@@ -1,11 +1,12 @@
-import Colorizer from './Colorize'
+import React from 'react';
+import Colorizer from './Colorize';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Colorizer />
-      </div>
+    </div>
   );
 }
 
