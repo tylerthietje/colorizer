@@ -1,5 +1,5 @@
 import React from 'react';
-import Colorizer from './Colorize';
+import Colorizer from './Colorizer';
 import './App.css';
 
 function App() {

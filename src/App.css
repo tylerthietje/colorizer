@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #666;
+  background-color: rgb(138, 136, 136);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -20,4 +20,12 @@ body {
   font-size: 3rem;
   font-weight: 900;
   color: rgb(255, 255, 255);
+}
+
+button {
+  padding: 15px;
+  font-size: 2em;
+  border-radius: 25px;
+  background-color: #14e52f;
+
 }
